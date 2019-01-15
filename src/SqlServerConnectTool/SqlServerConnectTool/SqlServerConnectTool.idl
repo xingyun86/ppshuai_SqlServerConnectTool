@@ -1,0 +1,20 @@
+// SqlServerConnectTool.idl : IDL source for SqlServerConnectTool.exe
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (SqlServerConnectTool.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(3EFF6B25-8A43-4C8C-9D5C-D39369E0685E),
+	version(1.0),
+	helpstring("SqlServerConnectTool 1.0 Type Library")
+]
+library SqlServerConnectToolLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+};

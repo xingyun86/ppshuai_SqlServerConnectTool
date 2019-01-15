@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{612D95A0-689F-4BE2-8E5E-0DFF5BC36F11} = s 'SqlServerConnectTool'
+		'SqlServerConnectTool.EXE'
+		{
+			val AppID = s {612D95A0-689F-4BE2-8E5E-0DFF5BC36F11}
+		}
+	}
+}
